@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    
+}
+
+.navbar{/*Navigation Bar*/
+    background-color:rgb(14, 13, 13);
+    padding:0px;
+    margin:0px;
+    overflow:hidden;/*makes the list appears*/
+}
+
+.navbar a,li{/*We target the a elements from the list*/
+    color:white;/*colors the link*/
+    float:left;
+    padding:10px;/*The space between the list elements*/
+    text-decoration:none;/*Removes the rows*/
+    display:block;
+    text-align:center;
+}
+
+.navbar a:hover{
+    background-color: black;/*When you hover , it has a black block*/
+}
+
